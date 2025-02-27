@@ -94,3 +94,5 @@ CONSTRAINT fk_country_tab2 foreign key (country_id) references country_tab(count
 
 insert into state_tab2 select * from state_tab;
 select * from state_tab2;
+
+Select * from state;
